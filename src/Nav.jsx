@@ -8,7 +8,7 @@ export default function Nav(props) {
     >
       <div className="flex flex-row ">
         <img className="w-18 h-10 text-center" src="/assets/react.svg"></img>
-        <span className="text-regal-blue text-2xl ml-2 sm:ml-5 font-bold text-center">
+        <span className="text-regal-blue text-2xl ml-1 sm:ml-10 font-bold text-center">
           ReactFacts
         </span>
       </div>
