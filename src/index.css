@@ -18,4 +18,10 @@
   background-position: right 0% bottom 80%;
 }
 
+.bg-dark-img {
+  background-image: url("/assets/reactjs-icon\ 2.svg");
+  background-repeat: no-repeat;
+  background-position: right 0% bottom 80%;
+}
+
 @tailwind utilities;
