@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+/* css for light and dark mode */
+
+.dark {
+  @apply bg-dark-black text-white;
+}
+
+.light {
+  @apply bg-white text-black;
+}
+
+/* custom class for background image */
+.bg-img {
+  background-image: url("/assets/reac-main.svg");
+  background-repeat: no-repeat;
+  background-position: right 0% bottom 80%;
+}
+
+@tailwind utilities;
