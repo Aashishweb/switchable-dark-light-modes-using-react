@@ -4,7 +4,7 @@ export default function Nav(props) {
     <div
       className={`${
         props.darkMode ? "dark" : "light"
-      }  flex flex-row justify-between py-6 px-5 shadow-lg `}
+      }  flex flex-row justify-between py-6 sticky top-0 z-50 px-5 shadow-lg `}
     >
       <div className="flex flex-row ">
         <img className="w-18 h-10 text-center" src="/assets/react.svg"></img>

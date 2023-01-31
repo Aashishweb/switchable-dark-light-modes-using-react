@@ -5,7 +5,7 @@ export default function SectionaMain(props) {
       // toggle dark mode
       className={`${props.darkMode ? "bg-light-black" : "bg-white"}  ${
         props.darkMode ? "bg-dark-img" : "bg-img"
-      }  h-screen ${props.darkMode ? "text-white" : "text-light-black"} `}
+      }  h-screen   ${props.darkMode ? "text-white" : "text-light-black"} `}
     >
       {/* main content */}
       <h1 className="text-4xl sm:p-12 p-6 font-bold ">Fun facts about React</h1>
